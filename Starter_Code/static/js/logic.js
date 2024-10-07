@@ -20,7 +20,17 @@ function createFeatures(earthquakeData) {
             let color = getColor(depth); // Get the color based on depth
 
             // Create the marker with size and color based on magnitude & depth
-            
+            return L.circleMarker(latlng, {
+                radius: getRadius(magnitude), // This function determines the radius
+                fillColor: color,
+                color: "#000",
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.8
+            }).bindPopup("Location: " + feature.properties.place + "<br>Magnitude: " + magnitude + "<br>Depth: " + depth + "km");
         }
-    })
+    });
+
+    // Create a map and add the earthquakes layer
+    createImageBitmap(earthquakes);
 }
