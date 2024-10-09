@@ -22,8 +22,12 @@ Your data markers should reflect the magnitude of the earthquake by their size a
 Include popups that provide additional information about the earthquake when its associated marker is clicked.
 Create a legend that will provide context for your map data.
 
-What my visual looks like: 
+# What my visual looks like: 
 ![image](https://github.com/user-attachments/assets/c6c7968c-8156-4af4-b265-f2fed066a947)
 
-Live Page: 
+# Live Page: 
 https://laureng97.github.io/leaflet-challenge/
+
+# Contributions
+The javascript file was edited and modified based on feedback provided by Xpert Learning Assistant. 
+
